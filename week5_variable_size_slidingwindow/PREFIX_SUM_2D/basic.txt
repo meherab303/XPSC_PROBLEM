@@ -1,0 +1,6 @@
+1.prefix_calc:
+        prefix_sum[i][j] = a[i][j] + prefix_sum[i-1] [j] + prefix_sum[i][j-1] - prefix_sum[i-1][j-1];
+
+2.segment prefix_sum -->(x1,y1),(x2,y2):
+    
+        segment_prefix = prefix_sum[x2][y2] - prefix_sum[x1-1][y2] - prefix_sum[x2][y1-1] + prefix_sum[x1-1][y1-1];
