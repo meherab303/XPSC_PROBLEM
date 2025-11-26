@@ -17,22 +17,22 @@ int main()
 
 
 
-    deque<int>dq;
+    deque<int>divisors;
   //O(sqrt(n));
   for(int i=1;i*i<=n;i++){   //i<=sqrt(n) == i*i<=n
     if(n%i==0){
         cout<<i<<" ";
 
         if(i!=(n/i)){
-            dq.push_front(n/i);
+            divisors.push_front(n/i);
         }
        
     }
   }
 
-  for(auto x:dq){
-    cout<<dq.front()<<" ";
-    dq.pop_front();
+  for(auto x:divisors){
+    cout<<divisors.front()<<" ";
+    divisors.pop_front();
   }
     
 
