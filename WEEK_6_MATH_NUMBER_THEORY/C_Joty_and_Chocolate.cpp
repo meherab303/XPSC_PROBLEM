@@ -14,7 +14,7 @@ int main()
 
    
   long long chocA=(long long)(n/a)*p,chocB=(long long)(n/b)*q;
-  long long overLap_A_B=(n/lcm(a,b));
+  long long overLap_A_B=(n/lcm(a,b)); // 2ta number er lcm mane proti lcm value por por 2ta shongkha darai bhag jabe. 
 
   long long total_choc=((chocA+chocB)-(overLap_A_B*(p+q)))+(overLap_A_B*max(p,q));
 
