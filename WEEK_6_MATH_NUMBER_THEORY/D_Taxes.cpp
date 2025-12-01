@@ -21,7 +21,7 @@ int main()
 
   if(isPrime(n)){
     cout<<1<<endl;
-  }else if(n%2==0){  //jekono even number ke 2ta prime er summation e convert kora jai.prime gula 2 ba 2 er theke boro hoi.
+  }else if(n%2==0){  //jekono even number ke 2ta prime er summation e convert kora jai.prime gula 2 ba 2 er theke boro rekheo kora jai.
     cout<<2<<endl;
 
   }else{    //jekono odd number ke 2ta ba 3ta prime er summation e convert kora jai. odd theke 2 minus korle prime hole 2ta hobe. nahoy 3ta(odd theke 3 minus korle even hbe.oi even ke 2ta prime ke convert)
