@@ -8,11 +8,14 @@ int main() {
 	cin>>n>>k;
 	int max_gcd=n/k;
 
-	int i=max_gcd;
-	while(k--){
-	      cout<<i<<" ";
-	      i+=max_gcd;
-	}
+	// int i=max_gcd;
+	// while(k--){
+	//       cout<<i<<" ";
+	//       i+=max_gcd;
+	// }
+    for( int i=1;i<=k;i++){
+        cout<<max_gcd*i<<" ";
+    }
 	
 	cout<<endl;
     }
