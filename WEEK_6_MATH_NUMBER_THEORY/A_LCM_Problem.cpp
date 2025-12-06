@@ -24,3 +24,4 @@ int main()
   return 0;
 }
 
+// যদি আমরা x কে x=l ধরে নিই, তাহলে y=2l ঠিকভাবে satisfy করতে পারে। কারণ:LCM(l,2l)=2l .tahole l atmax r/2 hote parbe.
