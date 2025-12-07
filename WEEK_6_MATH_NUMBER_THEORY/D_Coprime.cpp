@@ -43,7 +43,9 @@ int main()
   return 0;
 }
 
-//array te same value duplicate hbe.tai value gular max index map e store korbo.
-//jeheto duplicate value thakbe tai duplicate  pair er gcd barbar ber korar mane hoina.tai focus korbo only value er upor.mane prottekta unique pair er gcd ber korbo.duplicate pair er gcd only 1bar ber hobe.like gcd(1000,1000),gcd(999,999),gcd(1,1) etc.karon gcd(1,1) er gcd o 1.
-//gcd ber korbo value er upor.array te max value 1000.tai 1000 theke 1 porjnto shokol pair er gcd ber korbo.jader gcd 1 hbe oi pair ta map e thakle max_sum er sathe tader index compare korbo
+//1.array te same value duplicate hbe.tai value gular max index map e store korbo.
+
+//2.jeheto duplicate value thakbe tai duplicate  pair er gcd barbar ber korar mane hoina.tai focus korbo only value er upor.mane prottekta unique pair er gcd ber korbo.duplicate pair er gcd only 1bar ber hobe.like gcd(1000,1000),gcd(999,999),gcd(1,1) etc.karon gcd(1,1) er gcd o 1.
+
+//3.gcd ber korbo value er upor.array te max value 1000.tai 1000 theke 1 porjnto shokol pair er gcd ber korbo.jader gcd 1 hbe oi pair ta map e thakle max_sum er sathe tader index compare korbo
 
