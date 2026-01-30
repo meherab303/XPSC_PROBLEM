@@ -42,3 +42,11 @@ int main()
   return 0;
 }
 
+
+
+//max AND hobe tokhon e jokhon ami max setvalue ke 1 korte hbe.tai max setvalue theke check korbo,jdi 0 er shongka operation er shoman ba kom hoi tkhn oitakei amra 1 kore felbo.
+
+// 2^31    = 2147483648 = 10000000000000000000000000000000
+//(2^31)-1 = 214748347  = 01111111111111111111111111111111   -->eikhane (2^31)-1 mane 2^0 theke 2^30 porjnto cumulative sum tai 31th bit=0 and baki shob bit 1.
+
+//(2^n)-((2^n)-1)=1
