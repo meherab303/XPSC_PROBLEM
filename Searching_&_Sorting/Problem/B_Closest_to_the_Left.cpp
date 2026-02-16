@@ -18,7 +18,10 @@ int main()
 
     int mid,max_index=0;
     while(l<=r){
-        mid=(l+r)/2;
+        // mid=(l+r)/2;// eivabe mid calculate korle overflow hbe.karon (l+r) jug hoye long long e chole jete pare.
+
+        //alternative
+        mid=l+(r-l)/2;  //(2l+r-l)/2==(l+r)/2;
         if(v[mid]<=key){
             max_index=mid+1;
             l=mid+1;
