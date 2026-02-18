@@ -11,6 +11,7 @@ int main()
     cin>>v[i];
   }
   sort(v.begin(),v.end());
+  
   int q;cin>>q;
   for(int i=0;i<q;i++){
     int key;cin>>key;
