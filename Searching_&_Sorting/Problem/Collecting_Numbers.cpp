@@ -34,7 +34,7 @@ int main()
     cin>>x;
     v[x]=i;
    }
-   int round=1;
+   int round=1; //minimum 1ta round to laghbei.
 
    for(int i=1;i<n;i++){
     if(v[i]>v[i+1]){
