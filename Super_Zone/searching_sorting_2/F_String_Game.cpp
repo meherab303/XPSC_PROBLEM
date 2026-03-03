@@ -17,15 +17,15 @@ int main()
   }
 
   auto ok=[&](int mid)->bool{
-   vector<bool>deleted(n+1);
+   vector<bool>deleted(n+1);   //physically delete kora hoini .karon physically ekbr delete korle barbar seach korte parbona.ekebareito delete hoye jabe.
   for(int i=0;i<mid;i++){
     deleted[v[i]]=true;
   }
 
   int j=0;
   bool found=false;
-  for(int i=0;i<n;i++){
-    if(s[i]==t[j] && deleted[i+1]==false){
+  for(int i=0;i<n;i++){  // ei loop darai t word ta  s er  subsequence kina check hocche
+    if(s[i]==t[j] && deleted[i+1]==false){  // jodi s[i] and t[j] shoman hoi and s[i] er letter ta delete na hoi 
         j++;
     }
 
