@@ -9,7 +9,7 @@ int main()
     int m, n; 
     cin >> m >> n;
 
-    vector<pair<pair<int,int>,int>> v(n);
+    vector<pair<pair<int,int>,int>> v(n); // tuple use koreo kora jabe
     for(int i = 0; i < n; i++){
         cin >> v[i].first.first >> v[i].first.second >> v[i].second;
     }
@@ -30,9 +30,6 @@ int main()
             int cycle = t * z + y; // per cycle e z ta ballon inflate kore
 
             int total_ballon=calc_ballon(t,z,y,cycle,mid); 
-            
-
-           
             ballon += total_ballon;
 
             int remain = mid % cycle;
@@ -53,16 +50,13 @@ int main()
             int y = v[i].second;
             int cycle = t * z + y;  
 
-            int total_ballon=calc_ballon(t,z,y,cycle,total_time); 
-
-            
+            int total_ballon=calc_ballon(t,z,y,cycle,total_time);  
             ballon += total_ballon;
 
             int remain = total_time % cycle;
             ballon += min(z, remain / t);
 
             int give = min(ballon, need);  //karon binary search minimum time ta dei.exact amount je paowa jabe eitar guarantee nei.tai oi minimum time e m theke beshi ballon inflate hoite pare.but assistant er total ballon ==m hoite hobe.
-
             inflate[i] = give;
             need -= give;
         }
